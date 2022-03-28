@@ -10,6 +10,7 @@ const todoSchema = new mongoose.Schema(
         versionKey: false,
         timestamp: true,
     }
+    
 )
 const Todo = mongoose.model("todo", todoSchema)
 module.exports = Todo;
